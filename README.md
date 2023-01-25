@@ -19,9 +19,18 @@ Anaconda - Python 3.7
 
 ## PROGRAM:
 
+Python program for getting the word count from the contents of a file using command line arguments.
+Developed by:  Rakesh J.S
+Register Number: 22009339
+
+import sys
+fp= open(sys.argv[1])
+data=fp.read()
+words=data.split()
+print("Total Words:",len(words))
+
 ### OUTPUT:
-
-
+![eig](5.png)
 
 ## RESULT:
 Thus the program is written to find the word count from the contents of a file using command line arguments.
